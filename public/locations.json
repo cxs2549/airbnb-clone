@@ -1,0 +1,93 @@
+[
+    {
+      "location": "Boulder, Utah",
+      "rating": 4.5,
+      "distance": 2.5,
+      "price": 6237
+    },
+    {
+      "location": "Portland, Oregon",
+      "rating": 3.2,
+      "distance": 5.7,
+      "price": 4753
+    },
+    {
+      "location": "San Francisco, California",
+      "rating": 4.9,
+      "distance": 10.2,
+      "price": 8745
+    },
+    {
+      "location": "Austin, Texas",
+      "rating": 3.8,
+      "distance": 7.3,
+      "price": 3215
+    },
+    {
+      "location": "New York, New York",
+      "rating": 4.7,
+      "distance": 12.4,
+      "price": 9962
+    },
+    {
+      "location": "Paris, France",
+      "rating": 4.2,
+      "distance": 9.8,
+      "price": 7812
+    },
+    {
+      "location": "Tokyo, Japan",
+      "rating": 4.8,
+      "distance": 6.5,
+      "price": 5790
+    },
+    {
+      "location": "Sydney, Australia",
+      "rating": 4.4,
+      "distance": 8.1,
+      "price": 5489
+    },
+    {
+      "location": "Rio de Janeiro, Brazil",
+      "rating": 4.1,
+      "distance": 4.9,
+      "price": 4265
+    },
+    {
+      "location": "Cape Town, South Africa",
+      "rating": 3.9,
+      "distance": 3.2,
+      "price": 2895
+    },
+    {
+      "location": "Vancouver, Canada",
+      "rating": 4.6,
+      "distance": 4.5,
+      "price": 5374
+    },
+    {
+      "location": "Amsterdam, Netherlands",
+      "rating": 4.3,
+      "distance": 6.2,
+      "price": 6734
+    },
+    {
+      "location": "Munich, Germany",
+      "rating": 4.0,
+      "distance": 5.1,
+      "price": 4179
+    },
+    {
+      "location": "Stockholm, Sweden",
+      "rating": 4.7,
+      "distance": 3.9,
+      "price": 6231
+    },
+    {
+      "location": "Barcelona, Spain",
+      "rating": 4.2,
+      "distance": 8.5,
+      "price": 5398
+    }
+  ]
+  

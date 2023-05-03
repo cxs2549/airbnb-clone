@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    @apply antialiased text-[15.5px];
+    color: #222222;
+}
+
+*{
+  scrollbar-width: none;
+}
+
+#categories {
+  position: relative;
+}
+
+#left-arrow { opacity: 0; transition: 500ms ease-in-out;}
+#right-arrow { opacity: 0; transition: 500ms ease-in-out;}
+
+#categories:hover #left-arrow {
+  opacity: 1;
+  
+}
+
+#categories:hover #right-arrow {
+  opacity: 1;
+}
+
+#categories::after {
+  content: "";
+  position: absolute;
+  bottom: 0px; /* adjust this value to control the distance between the navbar and the shadow */
+  left: 0;
+  right: 0;
+  height: 2.5px; /* adjust this value to control the height of the shadow */
+  box-shadow: 0.5px solid rgba(0,0,0,0.08);
+}
+
+#searchbar {
+  
+box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.border-custom {
+    border: 0.5px solid rgba(0,0,0,0.08)
+  }
+
+  .shadow-custom {
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  }
+
+  
+
+  .carousel {
+    width: 100%; /* fallback width for screens smaller than 768px */
+    padding: 0; /* remove padding */
+  }
+  
+  @media (min-width: 768px) {
+    .carousel {
+      width: 80vw;
+    }
+  }
